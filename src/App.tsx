@@ -19,25 +19,14 @@ function App() {
           ></path>
         </svg>
       </div>
-      <p className="mt-6 tracking-wide">
-        Edit <code>src/App.jsx</code> and save to reload.
-      </p>
       <div className="mt-4 flex justify-center">
         <a
-          className="bg-indigo-500 hover:bg-indigo-600 text-white py-2 px-4 rounded"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <a
-          className="ml-4 bg-indigo-500 hover:bg-indigo-600 text-white py-2 px-4 rounded"
+          className="ml-4 bg-indigo-500 hover:bg-indigo-600 text-white py-2 px-4 rounded text-xl"
           href="https://tailwindcss.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Tailwind
+          学习 JavaScript 数据结构与算法
         </a>
       </div>
     </div>
