@@ -17,6 +17,7 @@
     "postcss": "8.x",
     "postcss-cli": "8.x",
     "postcss-preset-env": "6.x",
+    "prettier": "^2.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
