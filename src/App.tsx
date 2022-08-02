@@ -26,7 +26,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          学习 JavaScript 数据结构与算法
+          Learn JavaScript Data Structure and Algorithm
         </a>
       </div>
     </div>
