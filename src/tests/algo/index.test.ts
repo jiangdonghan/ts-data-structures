@@ -1,4 +1,5 @@
 import { arrayRotate1, arrayRotate2 } from "../../algo/array-rotate";
+import { checkBracketsMatch } from "../../algo/brackets-match";
 
 const cases1 = {
   k: 3,
@@ -13,5 +14,22 @@ describe("Array Rotate", () => {
   test("Test Case 2", () => {
     const res = arrayRotate2(cases1.arr, cases1.k);
     expect(res).toEqual(cases1.result);
+  });
+});
+
+describe("Brackets Match", () => {
+  test("Test Case 1", () => {
+    const res = checkBracketsMatch("{[()]}");
+    expect(res).toEqual(true);
+  });
+
+  test("Test Case 2", () => {
+    const res = checkBracketsMatch("{[zz(33re)re}");
+    expect(res).toEqual(false);
+  });
+
+  test("Test Case 3", () => {
+    const res = checkBracketsMatch("([)]232{}");
+    expect(res).toEqual(false);
   });
 });
